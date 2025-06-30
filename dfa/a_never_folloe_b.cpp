@@ -31,6 +31,9 @@ public:
     bool isAccepted() const {
         return state != -1;
     }
+    bool isRejected() const {
+        return state == -1;
+    }
 };
 
 int main() {
