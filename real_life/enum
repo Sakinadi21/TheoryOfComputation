@@ -1,0 +1,38 @@
+What is enum?
+enum stands for enumeration.
+
+It is a user-defined type consisting of a set of named integer constants.
+
+It helps make your code more readable by replacing magic numbers with descriptive names.
+
+How does enum work?
+When you write:
+
+cpp
+Copy
+Edit
+enum State { GREEN, YELLOW, RED };
+You create a new type called State.
+
+The possible values of this type are GREEN, YELLOW, and RED.
+
+By default, GREEN = 0, YELLOW = 1, RED = 2.
+
+You can use these names instead of numbers to improve clarity.
+
+Example in your traffic light code:
+cpp
+Copy
+Edit
+State state = GREEN;
+means the current state is green (internally represented by 0).
+
+Later, you can do:
+
+cpp
+Copy
+Edit
+state = YELLOW;
+to change the state to yellow (internally 1).
+
+This is easier to understand than using state = 0 or state = 1.
