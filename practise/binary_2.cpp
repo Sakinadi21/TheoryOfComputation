@@ -1,10 +1,11 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 using namespace std;
+
 bool isBinaryDivisibleBy2(const string& s){
     if(s.empty()) return false;
     for(char c:s){
-        if(c!='0' && c!='1')
-            return false;
+        if(c !='0' && c!='1') return false;
     }
     // Check if the binary number is divisible by 2
     return s.back() == '0';

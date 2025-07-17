@@ -6,7 +6,6 @@ bool startsWithA(const string& s) {
     return s[0] == 'a';
 }
 
-
 int main() {
     string input;
     cin >> input;
