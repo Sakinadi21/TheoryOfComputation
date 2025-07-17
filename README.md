@@ -34,7 +34,7 @@ This repository is designed to help students understand the implementation of au
 ├─ tm/                ← Basic Turing Machine simulator
 ├─ complexity/        ← Time & space complexity theory (notes/code)
 └─ README.md
-Setup & Compilation
+## Setup & Compilation
 You’ll need:
 
 A C++ compiler (e.g. g++, clang++)
@@ -63,7 +63,7 @@ Run Turing Machine:
 
 g++ tm/tm_simulator.cpp -o tm
 ./tm
-Implemented Topics
+## Implemented Topics
 Topic	File/Folder	Description
 DFA/NFA Simulator	dfa_nfa/dfa_simulator.cpp	Simulate deterministic & non-deterministic automata
 Regex → NFA	regex/regex_to_nfa.cpp	Thompson’s construction method
@@ -71,7 +71,7 @@ CFG Parser	grammar/cfg_parser.cpp	Parse and validate input strings with CFG
 Turing Machine	tm/tm_simulator.cpp	Simulate basic TM read-write operations
 Time/Space Complexity: complexity/	Examples and notes on theoretical bounds
 
-Contributing
+##Contributing
 Feel free to contribute!
 Please make sure:
 
